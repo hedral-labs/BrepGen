@@ -1,0 +1,1 @@
+cat meta_all_data.txt|xargs -n 2 -P 8 sh -c 'wget --no-check-certificate $0 -O meta/$1'
