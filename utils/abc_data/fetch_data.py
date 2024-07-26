@@ -72,7 +72,8 @@ if __name__ == "__main__":
                     continue
 
                 # Clean up by removing the downloaded file
-                # os.remove(FILE_NAME)
+                print(f"Removing {file_name}...")
+                os.remove(file_name)
 
     except Exception as e:
         print(e)
